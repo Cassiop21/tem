@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TEM?!</title>
+    <link rel="icon" href="mxeMN07tkEgQ1Mmi.jpg">
+</head>
+<body>
+    <h1>Da proxima vez tem?</h1>
+    <div>
+    <a id= "s" class="button" href="https://www.youtube.com/watch?v=04854XqcfCY">    sim </a>
+        <button class="button" id="n">Não</button>
+    </div>
+</body>
+
+<script>
+    const botaoSim = document.getElementById('n');
+
+    botaoSim.addEventListener('click', function() {
+        botaoSim.style.position = "absolute";
+        botaoSim.style.top = Math.random() * (window.innerHeight - botaoSim.offsetHeight) + "px";
+        botaoSim.style.left = Math.random() * (window.innerWidth - botaoSim.offsetWidth) + "px";
+    });
+</script>
+
+</html>

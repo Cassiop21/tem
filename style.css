@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+div {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.button {
+    background-color: plum;
+    border-color: transparent;
+    width: 50px;
+}
+body{
+    background-image: url('mxeMN07tkEgQ1Mmi.jpg');
+    width: auto;
+}
+#s {
+    text-decoration: none; 
+    color: black;
+    width: 50px;
+}
+#s, #n {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: black;
+    width: 100px; /* Definindo largura comum para ambos */
+    padding: 10px; /* Definindo o padding para ambos */
+    text-align: center;
+    display: inline-block; /* Garante que o link e o botão fiquem lado a lado */
+    box-sizing: border-box; /* Garantir que padding não afete a largura total */
+}
